@@ -510,7 +510,7 @@ section {
   color: var(--color-white);
 }
 .portfolios .portfolio-item .hover-item .icons .icon:hover {
-  background-color: var(--color-white);
+  background-color: var(--color-grey-6);
 }
 .portfolios .portfolio-item .hover-item .icons .icon:hover i {
   color: var(--color-primary);
