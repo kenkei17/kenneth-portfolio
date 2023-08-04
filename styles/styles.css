@@ -7,7 +7,7 @@
 }
 
 :root {
-  --color-primary: #22445b;
+  --color-primary: #245c87;
   --color-secondary: #fff;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -33,7 +33,7 @@
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
-  --color-grey-6: #335f75;
+  --color-grey-6: #6db5d8;
 }
 
 body {
@@ -147,12 +147,16 @@ section {
   background-color: var(--color-grey-6);
   width: 55px;
   height: 55px;
-  border-radius: 50%;
+  border-radius: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0.7rem 0;
-  box-shadow: var(--box-shadow-1);
+  box-shadow:
+  5px 5px rgb(22, 134, 219),
+  10px 10px black,
+  inset 5px 5px rgb(103, 193, 213),
+  inset 10px 10px black;
 }
 .controls .control i {
   font-size: 1.2rem;
