@@ -893,3 +893,14 @@ section {
     font-size: 3rem;
   }
 }/*# sourceMappingURL=styles.css.map */
+.custom-title{
+  
+    font-weight: 400;
+    text-shadow: 
+      3px 3px 0
+      dodgerblue;
+    transition: all 0.2s ease;
+}
+.custom-title:hover {
+  text-shadow: 0 0 0 dodgerblue;
+}
