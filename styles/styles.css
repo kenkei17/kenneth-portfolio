@@ -1020,7 +1020,8 @@ section {
   left: 0;
   width:50%;
   height:90px;
-  background: rgba(100, 100, 100, 0.5);
+  background: var(--color-grey-6);
+  opacity: 0.4;
   border-radius: 45px 0 0 45px;
   }
   .skills-title h3{
@@ -1068,3 +1069,5 @@ section {
      box-shadow: 0 0 5px #81bce3;
      border: 1px solid rgba(0,0,0,0.4);
   }
+
+  
